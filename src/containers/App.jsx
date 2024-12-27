@@ -34,8 +34,8 @@ class App extends Component {
         <h1>Loading</h1> :
         (
             <div className="min-h-screen bg-gradient-to-b from-cyan-800 to-green-400">
-                <div className="sticky top-0 z-10 pt-12 pb-4 justify-items-center">
-                    <h1 className="font-sega text-5xl md:text-6xl text-center text-cyan-200 mb-4">
+                <div className="sticky top-0 z-10 justify-items-center pt-12 pb-4">
+                    <h1 className="mb-4 text-5xl text-center text-cyan-200 font-sega md:text-6xl">
                         RobotBros
                     </h1>
                     <SearchBox searchChange={this.onSearchChange} />
