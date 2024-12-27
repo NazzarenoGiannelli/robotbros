@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import textStroke from "@designbycode/tailwindcss-text-stroke"
+
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
@@ -8,5 +10,7 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        textStroke
+    ],
 }
