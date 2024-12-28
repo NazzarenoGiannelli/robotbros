@@ -33,10 +33,12 @@ export default function App() {
                 <h1 className="mb-4 text-5xl text-center text-green-200 text-stroke-3 text-stroke-green-600 font-sega md:text-6xl">
                     RobotBros
                 </h1>
-                <button onClick={() =>setCount(count + 1)} className="px-4 py-2 text-xl font-bold text-green-800 bg-green-200 rounded-full border-2 border-green-600">
-                    Click Me<br/>{count}
-                </button>
-                <SearchBox searchChange={onSearchChange} />
+                <div className="flex flex-row gap-1 justify-center items-center px-4 md:gap-4">
+                    <button onClick={() =>setCount(count + 1)} className="px-5 py-2 max-h-14 text-lg font-bold text-green-200 bg-green-600 rounded-full border-2 border-green-600 hover:text-green-600 hover:bg-green-200">
+                        Click Me {count}
+                    </button>
+                    <SearchBox searchChange={onSearchChange} />
+                </div> 
             </div>
             <Scroll>
                 <CardList robots={filteredRobots} />
