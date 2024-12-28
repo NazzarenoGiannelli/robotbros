@@ -34,8 +34,8 @@ export default function App() {
                     RobotBros
                 </h1>
                 <div className="flex flex-row gap-1 justify-center items-center px-4 md:gap-4">
-                    <button onClick={() =>setCount(count + 1)} className="px-5 py-2 max-h-14 text-lg font-bold text-green-200 bg-green-600 rounded-full border-2 border-green-600 hover:text-green-600 hover:bg-green-200">
-                        Click Me {count}
+                    <button onClick={() =>setCount(count + 1)} className="px-5 py-2 max-h-14 text-lg text-green-200 bg-green-600 rounded-full border-2 border-green-600 hover:text-green-600 hover:bg-green-200">
+                        Click me {count}
                     </button>
                     <SearchBox searchChange={onSearchChange} />
                 </div> 

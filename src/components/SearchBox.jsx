@@ -4,7 +4,7 @@ const SearchBox = ({ searchChange }) => {
             <input
                 className="py-2 text-xl font-bold text-center text-green-800 bg-green-200 rounded-full border-2 border-green-600 max-w-60 placeholder:font-normal placeholder:text-green-600 placeholder:text-center"
                 type="search"
-                placeholder="search robots"
+                placeholder="Search robots"
                 onChange={searchChange}
             />
         </div>
